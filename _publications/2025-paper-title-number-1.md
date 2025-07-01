@@ -8,6 +8,7 @@ date: 2025-01-01
 venue: 'ICLR'
 paperurl: 'https://openreview.net/pdf?id=phAlw3JPms'
 codeurl: 'https://github.com/jiawei415/RobustDecisionTransformer'
+authors: test
 # citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
 
