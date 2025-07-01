@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "HomePage"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Less talk, more code."
   location         : "China"
-  employer         : "The Chinese University of Hong Kong, Shenzhen"
+  employer         : "CHUK(SZ)"
   uri              : "https://jiawei415.github.io"
   email            : "jiawei202016@gmail.com" 
 
