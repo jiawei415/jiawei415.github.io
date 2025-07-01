@@ -1,8 +1,8 @@
 ---
 title: "Teaching Assistant for Discrete Mathematics, 23Fall"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2023-spring-teaching-1
+type: "Undergraduate course, CSC3001"
+permalink: /teaching/2023-fall-teaching
 venue: "CUHK(SZ)"
 date: 2023-09-01
 location: "Shenzhen, China"
