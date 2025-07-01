@@ -6,5 +6,4 @@ permalink: /teaching/2014-spring-teaching-1
 venue: "CUHK("
 date: 2023Fall
 location: "Shenzhen, China"
-professors: Baoxiang Wang
 ---
