@@ -1,13 +1,12 @@
 ---
-title: "Towards Robust Offline Reinforcement Learning under Diverse Data Corruption"
+title: "Efficient Multi-Goal Reinforcement Learning via Value Consistency Prioritization"
 collection: publications
-category: conferences
-permalink: /publication/2024-paper-title-number-2
-# excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
-date: 2025-01-02
-venue: 'ICLR'
-paperurl: 'https://arxiv.org/abs/2310.12955'
-codeurl: 'https://github.com/YangRui2015/RIQL'
-# citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+category: journal
+permalink: /publication/2024-paper-title-number-1
+# excerpt: 'This paper is about fixing template issue #693.'
+date: 2023-01-01
+venue: 'IEEE Transactions on Games'
+paperurl: 'https://ieeexplore.ieee.org/document/10077442'
+authors: 'Shuxing Li*, <strong>Jiawei Xu</strong>*, Honghua Dong, Yu Yang, Chun Yuan, Peng Sun.'
 ---
 
