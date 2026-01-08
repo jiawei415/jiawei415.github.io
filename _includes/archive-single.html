@@ -45,6 +45,8 @@
         {% elsif post.collection == 'publications' %}
           {% if post.category == 'preprint' %}
             <p>Arxiv, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% elsif post.category == 'post' %}
+            <p>{{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% elsif post.category == 'patent' %}
             <p>{{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% else %}

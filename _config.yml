@@ -86,7 +86,9 @@ publication_category:
   journal:
     title: 'Journal Articles'    
   preprint:
-    title: 'Preprint Papers'   
+    title: 'Preprint Papers'    
+  blog:
+    title: 'Blog Posts'   
   patent:
     title: 'Patents'
 
