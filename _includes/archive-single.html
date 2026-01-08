@@ -74,6 +74,8 @@
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
     {% elsif post.citation and post.paperurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Paper</a></p>
+    {% elsif post.citation and post.link %}
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.link }}">Link</a></p>
     {% elsif post.citation and post.slidesurl and post.bibtexurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Slides</a> | <a href="{{ post.bibtexurl}}">Bibtex</a></p>
     {% elsif post.citation and post.slidesurl %}
