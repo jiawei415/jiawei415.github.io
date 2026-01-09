@@ -12,6 +12,11 @@
   {% assign title = post.title %}
 {% endif %}
 
+{% assign title_classes = "archive__item-title" %}
+{% if post.collection == 'publications' or post.collection == 'posts' %}
+  {% assign title_classes = title_classes | append: " archive__item-title--muted" %}
+{% endif %}
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -26,7 +31,7 @@
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="{{ title_classes }}" itemprop="headline">
       {% if post.collection == 'publications' or post.collection == 'teaching' %}
         {{ title }}
       {% elsif post.link %}

@@ -48,6 +48,19 @@
   }
 }
 
+.archive__item-title--muted {
+  color: var(--global-text-color-light);
+
+  a {
+    color: inherit;
+
+    &:hover,
+    &:focus {
+      color: inherit;
+    }
+  }
+}
+
 /* remove border*/
 .page__content {
 
