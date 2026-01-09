@@ -13,7 +13,7 @@
 {% endif %}
 
 {% assign title_classes = "archive__item-title" %}
-{% if post.collection == 'publications' or post.collection == 'posts' %}
+{% if post.collection == 'publications' or post.collection == 'posts' or post.collection == 'teaching' %}
   {% assign title_classes = title_classes | append: " archive__item-title--muted" %}
 {% endif %}
 
