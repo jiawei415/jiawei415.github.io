@@ -28,7 +28,7 @@ author:
   bio              : "Less talk, more code."
   location         : "China"
   employer         : "CHUK(SZ)"
-  uri              : "https://jiawei415.github.io"
+  # url              : "https://jiawei415.github.io"
   email            : "jiawei202016@gmail.com" 
 
   # Academic websites
